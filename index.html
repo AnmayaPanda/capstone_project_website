@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="IoT-Based Patient Assistance System - An innovative solution for automated medication management.">
+    <title>IoT Patient Assistance System</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">PatientAssist</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#problem">Problem Statement</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#design">Design</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <header id="home" class="vh-100 d-flex align-items-center justify-content-center text-white text-center bg-primary">
+        <div>
+            <h1>IoT-Based Patient Assistance System</h1>
+            <p>Innovative healthcare solution for automated medication management</p>
+        </div>
+    </header>
+
+    <!-- Problem Statement -->
+    <section id="problem" class="container my-5">
+        <h2 class="text-center mb-4">Problem Statement</h2>
+        <p>Medication management is a significant challenge for elderly patients. Missed doses, incorrect timings, and over-reliance on caregivers can lead to severe health complications. Traditional methods often fail to provide a comprehensive solution, creating a need for an automated, reliable system.</p>
+    </section>
+
+    <!-- Features -->
+    <section id="features" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Key Features</h2>
+            <ul class="list-unstyled">
+                <li>✔ Automated pill dispensing using a rotary carousel mechanism.</li>
+                <li>✔ Real-time alerts via a connected mobile app.</li>
+                <li>✔ LCD display for dosage history and upcoming reminders.</li>
+                <li>✔ User-friendly push-button interface for elderly patients.</li>
+                <li>✔ Remote monitoring for caregivers and family members.</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Design & Implementation -->
+    <section id="design" class="container my-5">
+        <h2 class="text-center mb-4">Design & Implementation</h2>
+        <p>The system uses an ESP32 microcontroller for seamless connectivity. A stepper motor drives a rotary pill dispenser, controlled via a push-button interface. The LCD display shows key information, and a mobile app provides real-time notifications and tracking.</p>
+        <img src="background.jpg" class="img-fluid" alt="System Design Diagram">
+    </section>
+
+    <!-- Contact Us -->
+    <section id="contact" class="bg-dark text-white py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Contact Us</h2>
+            <form>
+                <div class="mb-3">
+                    <label for="name" class="form-label">Name</label>
+                    <input type="text" class="form-control" id="name" required>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email" required>
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea class="form-control" id="message" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center py-3 bg-dark text-white">
+        <p>&copy; 2024 PatientAssist. All Rights Reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

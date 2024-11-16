@@ -1,0 +1,20 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+#home {
+    background: url('C:\\Users\\user\\OneDrive\\Desktop\\capstone_project_website\\background.jpg') no-repeat center center/cover;
+}
+
+ul {
+    font-size: 1.1rem;
+}
+
+footer {
+    background-color: #222;
+}
